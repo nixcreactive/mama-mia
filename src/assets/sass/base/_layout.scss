@@ -1,0 +1,27 @@
+@mixin flex-generic($align, $justify) {
+  display: flex;
+  align-items: $align;
+  justify-content: $justify;
+}
+
+@mixin grid-generic($columns, $gap) {
+  display: grid;
+  grid-template-columns: repeat($columns, auto);
+  grid-gap: $gap;
+  justify-content: center;
+}
+
+@mixin overlay() {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background: $transparent-bg;
+  z-index: 1000;
+}
+
+@mixin stretch() {
+  height: 100%;
+  width: 100%;
+}

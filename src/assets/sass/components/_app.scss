@@ -1,0 +1,10 @@
+.App {
+  min-height: 100vh;
+  background: $gradient-bg;
+  @include stretch();
+
+  &__title {
+    @include title-main();
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,16 @@
+.Recipes {
+  @include grid-generic(4, 20px);
+  margin: 50px 0;
+
+  @media screen and (max-width: 1366px) {
+    @include grid-generic(3, 20px);
+  }
+
+  @media screen and (max-width: 1000px) {
+    @include grid-generic(2, 20px);
+  }
+
+  @media screen and (max-width: 700px) {
+    @include grid-generic(1, 20px);
+  }
+}

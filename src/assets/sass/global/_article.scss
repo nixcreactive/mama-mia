@@ -1,0 +1,17 @@
+article {
+  width: 475px;
+  margin: 15px auto;
+  padding: 20px;
+  border-radius: 5px;
+  color: $text-primary;
+  @include shadow-button();
+  @include flex-generic(center, space-between);
+
+  p {
+    margin-bottom: 15px;
+  }
+
+  sub {
+    color: $text-secondary;
+  }
+}

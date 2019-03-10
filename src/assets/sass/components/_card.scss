@@ -1,0 +1,19 @@
+.Card {
+  &__text-wrapper {
+    width: 75%;
+  }
+
+  &--Danger {
+    background: $transparent-danger;
+    @media screen and (max-width: 550px) {
+      width: 90%;
+    }
+  }
+
+  &--Success {
+    background: $transparent-success;
+    @media screen and (max-width: 550px) {
+      width: 90%;
+    }
+  }
+}
