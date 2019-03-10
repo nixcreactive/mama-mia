@@ -35,7 +35,7 @@ const App = () => {
 
 // Background image
 const style = {
-  backgroundImage: `url(${require('./assets/img/bg.png')})`
+  backgroundImage: `url(${require('./assets/img/bg.jpg')})`
 };
 
 export default App;
