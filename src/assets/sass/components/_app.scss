@@ -1,6 +1,8 @@
 .App {
   min-height: 100vh;
-  background: $gradient-bg;
+  background-color: $gradient-bg;
+  background-size: cover;
+  background-position: center center;
   @include stretch();
 
   &__title {

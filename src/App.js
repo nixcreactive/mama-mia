@@ -17,16 +17,16 @@ const App = () => {
         <Route
           exact
           path="/recipes"
-          render={props => <Recipes {...props} />}
+          component={Recipes}
         />
         <Route
           path="/recipe"
-          render={props => <Recipe {...props} />}
+          component={Recipe}
         />
         <Route
           exact
           path="/"
-          render={props => <Home {...props} />}
+          component={Home}
         />
       </Switch>
     </div>
