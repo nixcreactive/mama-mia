@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/mama-mia/precache-manifest.920c58a751442f098ccf0a5f013ef027.js"
+  "/mama-mia/precache-manifest.95c1370d91f0a3c8ff858939662b4ade.js"
 );
 
 workbox.clientsClaim();
